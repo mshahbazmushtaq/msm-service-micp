@@ -1,0 +1,3 @@
+
+INSERT INTO instances (instance_name, url, user_name, password, driver_class, min_pool_size, max_pool_size, init_pool_size) VALUES ('INST1','jdbc:derby:memory:local;create=true','derbyuser','password','org.apache.derby.jdbc.EmbeddedDriver',1,10,2);
+INSERT INTO instances (instance_name, url, user_name, password, driver_class, min_pool_size, max_pool_size, init_pool_size) VALUES ('INST2','jdbc:mariadb://localhost:3306/mdb_expense','root','','org.mariadb.jdbc.Driver',1,5,2);
